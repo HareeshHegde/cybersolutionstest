@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-definition id="com.cybersolutions.backoffice.actions.deletecustomerfeedbackaction"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/action-definition.xsd">
+
+    <name>DeleteCustomerFeedBacks</name>
+    <description>Action to Block Customer Feedback</description>
+    <author>hybris</author>
+    <version>1.0</version>
+
+    <actionClassName>com.cybersolutions.backoffice.actions.DeleteCustomerFeedBackAction</actionClassName>
+
+
+    <inputType>java.util.Collection</inputType>
+
+    <iconUri>icons/icon_confirm_pickup_enabled.png</iconUri>
+    <iconDisabledUri>icons/icon_confirm_pickup_disabled.png</iconDisabledUri>
+
+</action-definition>
